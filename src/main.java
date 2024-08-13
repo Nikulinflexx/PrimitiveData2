@@ -1,12 +1,12 @@
-package src;
+package main;
 
-public class primitivedata2 {
+public class main {
     public static void main(String[] args) {
         int threshold = 1000;
         int accountsRefill;
         int bonus;
         accountsRefill = 1100;
-        if(accountsRefill > threshold) {
+        if (accountsRefill > threshold) {
             bonus = accountsRefill / 100;
         } else {
             bonus = 0;
